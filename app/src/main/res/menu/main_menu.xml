@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottomBarGroups"
+        android:icon="@drawable/pic"
+        android:title="Groups">
+    </item>
+
+    <item android:id="@+id/bottomBarChats"
+        android:icon="@drawable/pic"
+        android:title="Chats">
+    </item>
+
+    <item android:id="@+id/bottomBarProfile"
+        android:icon="@drawable/pic"
+        android:title="Profile">
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "378956300127",
+    "firebase_url": "https://hudat-e57bf.firebaseio.com",
+    "project_id": "hudat-e57bf",
+    "storage_bucket": "hudat-e57bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378956300127:android:d944627cb003ecdc",
+        "android_client_info": {
+          "package_name": "com.nbt.hudat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378956300127-nsbhro6ncs71ccdkgnbj7agv2pnbph4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuA7KfpcB0YwiylLSMZGgIiu5g_xqZ9TQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

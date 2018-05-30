@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/master"
+    android:layout_width="180dp"
+    android:layout_height="178dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="154dp"
+        android:layout_height="174dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/round_group"
+        android:gravity="center_horizontal"
+        android:onClick="selectGroup"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/nameL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.02"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Left"
+            android:textSize="20sp" />
+
+        <Space
+            android:id="@+id/name_image"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageL"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:civ_border_color="#FFFFFFFF"
+            app:civ_border_width="4dp" />
+
+        <Space
+            android:id="@+id/image_numMember"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/numMemberL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <Space
+            android:id="@+id/postNumMember"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
